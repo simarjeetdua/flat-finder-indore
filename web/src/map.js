@@ -2,7 +2,7 @@ import maplibregl from 'maplibre-gl';
 import 'maplibre-gl/dist/maplibre-gl.css';
 
 const COLORS = { match: '#ffd9a0', likely: '#c99a5c', probable: '#9a8463', unknown: '#55545c', no: '#1b1b1e' };
-export const OVERVIEW = { center: [77.065, 28.425], zoom: 12.4, pitch: 50, bearing: 0 };
+export const OVERVIEW = { center: [75.86, 22.72], zoom: 11.8, pitch: 50, bearing: 0 };
 
 const stateColor = (fallback) => ['case',
   ['boolean', ['feature-state', 'sel'], false], '#ffffff',
